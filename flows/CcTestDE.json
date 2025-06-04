@@ -30,11 +30,11 @@
         "path": "$.result",
         "source": "python_node_1"
       }
-    }],
+    },
     "test_python_node1a": {
       "id": "ec2d5588-ef54-47e4-ab87-51acf94fd778",
       "type": "python_node",
       "python_code": "def exec(myinput):\n  return \"success\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
-    }
+    }]
   }
 }
