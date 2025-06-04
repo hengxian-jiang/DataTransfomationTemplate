@@ -1,4 +1,6 @@
 {
+  "name": "CcTestDE",
+  "description": "test description",
   "edges": {
     "e1": {
       "source": "python_node_1",
