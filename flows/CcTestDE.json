@@ -1,7 +1,7 @@
 {
   "name": "CcTestDE",
   "description": "test description",
-  "edges": {
+  "edges": [{
     "e1": {
       "source": "python_node_1",
       "target": "py2table_node_0"
@@ -10,8 +10,8 @@
       "source": "py2table_node_0",
       "target": "python_node_2"
     }
-  },
-  "nodes": {
+  }],
+  "nodes": [{
     "python_node_1": {
       "id": "8c67bf01-a440-4f5e-8a10-f20a085b2106",
       "type": "python_node",
@@ -30,7 +30,7 @@
         "path": "$.result",
         "source": "python_node_1"
       }
-    },
+    }],
     "test_python_node1a": {
       "id": "ec2d5588-ef54-47e4-ab87-51acf94fd778",
       "type": "python_node",
