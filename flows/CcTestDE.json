@@ -11,7 +11,7 @@
       "target": "python_node_2"
     }
   }],
-  "nodes": [{
+  "nodes": [
     "python_node_1": {
       "id": "8c67bf01-a440-4f5e-8a10-f20a085b2106",
       "type": "python_node",
@@ -35,6 +35,6 @@
       "id": "ec2d5588-ef54-47e4-ab87-51acf94fd778",
       "type": "python_node",
       "python_code": "def exec(myinput):\n  return \"success\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
-    }]
-  }
+    }
+  ]
 }
